@@ -1,0 +1,337 @@
+body {
+
+    background-color: white;
+    width: 100%;
+    height: 100%
+
+}
+
+.container {
+    background-color: white;
+    z-index: -1;
+    display: flex;    
+       
+}
+
+   
+.logo {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+
+.sidepanel {
+    height: 100%;
+    
+}
+
+.icon-pic {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.icon-text  {
+    font-family:Courgette;
+    font-size: 26;
+    font-weight: bold;
+    color:rgb(58, 152, 240);
+    height: 70px;
+    text-decoration: none;
+}
+
+a {
+    all: unset;
+}
+
+    a:hover {
+    color:rgb(26, 91, 151);
+}
+
+a:active {
+    color:rgb(11, 76, 129);
+}
+   
+.table-nav {
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.logo2 {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.title{
+    font-family: Domine;
+    font-size: 50px;
+}
+
+.taste{
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.blurb {
+    font-family: Courgette;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    word-wrap: break-word;
+
+}
+
+header{
+    max-width: 70%;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background:rgb(217, 217, 224);
+    height: 3px;
+    border: none;
+    width: 1398px;
+    margin-left: 0px;
+}
+
+.food-container1 {
+    display: flex;
+    background-color: white;
+    max-width: 1398px;
+}
+
+.blood-orange {
+    padding: 20px;
+    border-style:solid;
+    border-color:rgb(241, 241, 241);
+    max-width: 400px; 
+    position: relative;
+}
+
+.lemon {
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(241, 241, 241);
+    margin-left: 30px;
+    max-width: 400px; 
+    position: relative;
+}
+
+.food-container2 {
+    display: flex;
+    background-color: white;
+    max-width: 1398px;
+
+}
+
+
+.mango {
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(241, 241, 241);
+    margin-left: 30px;
+    max-width: 400px; 
+    position: relative;
+}
+
+.semolina {
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(241, 241, 241);
+    max-width: 400px; 
+    margin-top: 30px;
+    margin-right: 30px;
+    position: relative;
+}
+
+
+.sponge {
+        padding: 20px;
+        border-style: solid;
+        border-color: rgb(241, 241, 241);
+        max-width: 400px; 
+        margin-top: 30px;
+        margin-right: 30px;
+        position: relative;
+}
+
+.chocolate {
+    padding: 20px;
+    border-style: solid;
+    border-color: rgb(241, 241, 241);
+    max-width: 400px; 
+    margin-top: 30px;
+    position: relative;
+}
+
+.text {
+    overflow-wrap: break-word;
+    font-family: Domine;
+    font-size: 18px;
+    font: bold;
+    color:rgb(58, 152, 240);
+}
+
+p {
+    overflow-wrap: break-word;
+    font-family: Domine;
+    font-size: 14px;
+    color:black;
+}
+
+.button {
+   width: 100;
+   height: 30;
+   font-size: 16px;
+   background-color:rgb(143, 193, 240);
+   border-radius: 10px;
+   bottom: 20px;
+   position: absolute;
+   margin-top: 30px;
+}
+
+.photo{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.more {
+    width: 200;
+    height: 50;
+    font-size: 20px;
+    background-color:rgb(143, 193, 240);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 70px;
+    align-content: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+    
+ }
+ 
+
+
+.footer {
+    z-index: 0;
+    min-width: 99.5%;
+    margin-left:0;
+    position: relative;
+    color: white;
+    
+    
+   
+}
+
+.form {
+    position: absolute;
+    left: 60%;
+    bottom: 0px;
+    color: white;
+    font-size: 10px;
+
+
+}
+
+.container-footer {
+display: flex;
+padding: 40px;
+padding-top: 0px;
+padding-left:0px;
+
+}
+
+
+.submit{
+    background-color: rgb(143, 193, 240);
+    width: 40;
+    height: 40;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+button:hover {
+        background-color: pink;
+    
+}
+  
+button:ACTIVE {
+    background-color: rgb(177, 177, 223);
+
+}
+
+input[type=email]{
+    height: 40px;
+    width: 300px;
+    border-top-right-radius: 999px;
+    border-bottom-right-radius: 999px;
+  }
+
+  input[type=text]{
+    height: 40px;
+    width: 300px;
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+  }
+
+  input {
+    padding-top: 5;
+    padding-left: 10;
+    font-size: 12px;
+
+    }
+
+   .signup {
+        font-size: 14px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 10px;
+        min-width: 400px;
+        color: white;
+    }
+
+
+    .submit::after {
+        content: ">";
+        }
+    .submit:hover::after {
+         content: ">>";
+        }
+        
+   #bottom {
+        display:inline-block;
+        height: 30px;
+        width: 30px;
+        margin-left: 10;
+        margin-top: 50px;
+        margin-right: 20px;
+
+    }
+
+    .icon {
+
+        position: absolute;
+        color:white;
+        left: 40%;
+        bottom: 35px;
+    }
+
+ 
+    .foot {
+
+        position: absolute;
+        color:white;
+        left: 2%;
+        bottom: 25px;
+        font-weight: bold;
+
+    }
+#bottom-menu{
+    margin-bottom: 30px;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
